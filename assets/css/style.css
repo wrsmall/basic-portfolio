@@ -1,0 +1,74 @@
+ 
+ body {
+     background-color:lightgrey;
+
+
+}
+#header1 {
+    background-color:#ffffff;
+    margin-bottom:30px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-width:thick;
+    
+    
+}
+#header2{
+    background-color:#ffffff;
+    padding:10px;
+    margin-top:30px;
+    
+    
+}
+article{
+    background-color: #ffffff;
+    width:960px;
+    margin-right:50px;
+    margin-left:50px;
+}
+aside{
+    position: absolute;
+    right:60px;
+    top: 40px;
+    width:250px;
+    
+}
+
+#name{
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right:30px;
+    padding-left: 30px;
+    margin-left:25px;
+    width:150px;
+}
+hr{
+    width:950px;
+    color:lightgray;
+}
+#about{
+    float: left;
+    width:31%;
+    text-align: center;
+    border-right-style:solid;
+    border-right-color: gray; 
+    border-width: thin;
+}
+#portfolio{
+    float: left;
+    width:31%;
+    padding-right:3px;
+    padding-left: 3px;
+    text-align: center;
+    
+}
+#contact{
+    float: left;
+    text-align: center;
+    width:31%;
+    border-left-style:solid;
+    border-left-color: gray;
+    border-width: thin;
+}
