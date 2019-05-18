@@ -19,10 +19,24 @@
 }
 #header2{
     background-color:#ffffff;
-    padding:10px;
-    margin-top:30px;
+    height: 5%;
+    width:100%;
+
     
     
+}
+#aboutme{
+    background-color: slategray;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Maiden Orange', cursive;
+    font-weight: 400;
+    font-size: 14pt;
+    width:  20%;
+    height:75%;
+    padding: 10px;
+    margin:5px;
+    letter-spacing: 2px;
 }
 article{
     background-color: #ffffff;
@@ -48,14 +62,19 @@ aside{
 #name{
     background-color:slategray;
     color: whitesmoke;
+    font-family: 'Maiden Orange', cursive;
+    font-size: 14pt;
+    font-weight: 400;
+    text-align: center;
     padding-top:25px;
     padding-bottom: 25px;
     padding-right:30px;
     padding-left: 30px;
-    margin-left:20px;
+    margin-left:3%;
     margin-bottom: 5px;
     margin-top:5px;
-    width:150px;
+    width:20%;
+    letter-spacing: 2px;
     
 }
 hr{
@@ -104,4 +123,32 @@ hr{
     margin-top:30px;
     margin-left:10px;
     line-height: 22pt;
+    letter-spacing: 2px;
+}
+.contactme{
+    color: slategray;
+    text-align: center;
+    font-family: 'Maiden Orange', cursive;
+    font-weight: 400;
+    font-size: 18pt;
+    width:  15%;
+    height:75%;
+    letter-spacing: 2px;
+}
+#sender{
+    width:50%;
+    height:5%;
+    margin-left:5%;
+    margin-bottom: 2%;
+}
+#email{
+    width:50%;
+    height:5%;
+    margin-left:5%;
+    margin-bottom: 2%;
+}
+#sendermess{
+    width:50%;
+    height:200px;
+    margin-left:5%
 }
