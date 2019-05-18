@@ -154,7 +154,8 @@ hr{
 #sendermess{
     width:50%;
     height:200px;
-    margin-left:5%
+    margin-left:5%;
+    margin-bottom: 2%;
 }
 #myport{
     color: slategray;
@@ -172,6 +173,7 @@ position: relative;;
 padding:15px;
 width:225px;
 height:225px;
+z-index: 2;
 }
 .email{
     background-color: #ffffff;
@@ -186,4 +188,8 @@ height:225px;
     border-color: black;
     border-width:thin;
 
+}
+#submit{
+    margin-left:10%;
+    margin-bottom: 5%;
 }
