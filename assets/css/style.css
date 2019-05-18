@@ -1,15 +1,19 @@
  
  body {
-     background-color:lightgrey;
+     background-image: url(../images/marbel.jpg)
 
 
 }
 #header1 {
     background-color:#ffffff;
+    margin-left:0px;
+    margin-right:0px;
     margin-bottom:30px;
+    padding-top: 3px;
     border-bottom-color: black;
     border-bottom-style: solid;
     border-width:thick;
+    width:100%;
     
     
 }
@@ -22,9 +26,16 @@
 }
 article{
     background-color: #ffffff;
-    width:960px;
+    position: relative;
+    max-width:960px;
+    min-width: 100px;
+    min-height: 500px;
+    max-height:900px;
     margin-right:50px;
     margin-left:50px;
+    border-style: solid;
+    border-color: black;
+    border-width:thin;
 }
 aside{
     position: absolute;
@@ -35,14 +46,17 @@ aside{
 }
 
 #name{
-    background-color: #4aaaa5;
+    background-color:slategray;
     color: whitesmoke;
-    padding-top:10px;
-    padding-bottom: 10px;
+    padding-top:25px;
+    padding-bottom: 25px;
     padding-right:30px;
     padding-left: 30px;
-    margin-left:25px;
+    margin-left:20px;
+    margin-bottom: 5px;
+    margin-top:5px;
     width:150px;
+    
 }
 hr{
     width:950px;
@@ -71,4 +85,23 @@ hr{
     border-left-style:solid;
     border-left-color: gray;
     border-width: thin;
+}
+#portfolio-img{
+    float:left;
+    width:300px;
+    height:200px;
+    border-style: solid;
+    border-color:black;
+    border-width:thin;
+    margin-left:15px;
+    margin-top:15px;
+    margin-right:10px;
+}
+.bio{
+    position: relative;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18pt;
+    margin-top:30px;
+    margin-left:10px;
+    line-height: 22pt;
 }
