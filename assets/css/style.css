@@ -44,12 +44,13 @@ article{
     max-width:960px;
     min-width: 100px;
     min-height: 500px;
-    max-height:900px;
     margin-right:50px;
     margin-left:50px;
     border-style: solid;
     border-color: black;
     border-width:thin;
+    display:inline-table;
+    
 }
 aside{
     position: absolute;
@@ -78,8 +79,11 @@ aside{
     
 }
 hr{
-    width:950px;
+    width: 97%;
+    max-width:950px;
+    min-width: 100px;
     color:lightgray;
+    position: relative;
 }
 #about{
     float: left;
@@ -152,3 +156,21 @@ hr{
     height:200px;
     margin-left:5%
 }
+#myport{
+    color: slategray;
+    text-align: center;
+    font-family: 'Maiden Orange', cursive;
+    font-weight: 400;
+    font-size: 18pt;
+    width:  15%;
+    height:100%;
+    letter-spacing: 2px;
+}
+.portimg{
+float:left;
+position: relative;;
+padding:15px;
+width:150px;
+height:150px;
+}
+    
