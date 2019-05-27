@@ -212,7 +212,7 @@ footer{
 @media screen and (max-width:640px){
     #header1 {
         background-color:#ffffff;
-        align-content: center
+        position: static;
         margin-left:5%;
         margin-right:5%;
         margin-bottom:30px;
@@ -242,7 +242,7 @@ footer{
     
     nav{
     position:static;
-    margin-left: 27%;
+   
     
     
       
