@@ -213,8 +213,6 @@ footer{
     #header1 {
         background-color:#ffffff;
         position: static;
-        margin-left:5%;
-        margin-right:5%;
         margin-bottom:30px;
         padding-top: 3px;
         padding-bottom:20px;
@@ -224,6 +222,7 @@ footer{
         width:100%;
     }    
     #name{
+        position:static;
         background-color:slategray;
         color: whitesmoke;
         font-family: 'Maiden Orange', cursive;
@@ -242,6 +241,8 @@ footer{
     
     nav{
     position:static;
+    margin:auto;
+    width:60%;
    
     
     
