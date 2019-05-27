@@ -245,7 +245,7 @@ footer{
     width:60%;
     }
     footer{
-        position: relative;
+        position: fixed;
         bottom:0%;
         width:97%;
         background-color: slategray;
