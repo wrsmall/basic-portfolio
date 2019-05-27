@@ -245,7 +245,7 @@ footer{
     width:60%;
     }
     footer{
-        position: absolute;
+        position: static;
         position: sticky;
         bottom:0%;
         width:97%;
