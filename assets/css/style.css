@@ -243,11 +243,16 @@ footer{
     position:static;
     margin:auto;
     width:60%;
-   
-    
-    
-      
     }
-        
+    footer{
+        position: absolute;
+        position: sticky;
+        bottom:0%;
+        width:97%;
+        background-color: slategray;
+        color:black;
+        padding:10px;
+        text-align: center;
+        margin-top:10%;        
 
 }
