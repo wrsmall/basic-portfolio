@@ -245,7 +245,7 @@ footer{
     width:60%;
     }
     footer{
-        position: sticky;
+        position: relative;
         bottom:0%;
         width:97%;
         background-color: slategray;
